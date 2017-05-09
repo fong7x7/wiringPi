@@ -598,7 +598,7 @@ void ReadallOdroidXU (void)
   printf (" +------+-----+----------+------ Model ODROID-XU3/4 ------+----------+-----+------+\n") ;
   printf (" | GPIO | wPi |   Name   | Mode | V | Physical | V | Mode |   Name   | wPi | GPIO |\n") ;
   printf (" +------+-----+----------+------+---+----++----+---+------+----------+-----+------+\n") ;
-  for (pin = 1 ; pin <= 40 ; pin += 2)
+  for (pin = 1 ; pin <= 42 ; pin += 2)
     readallPhysOdroidXU (pin) ;
   printf (" +------+-----+----------+------+---+----++----+---+------+----------+-----+------+\n") ;
 }
