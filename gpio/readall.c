@@ -261,7 +261,7 @@ static char *physNamesOdroidXU [64] =
   "POWER ON", "GPIO. 33",
   "   AIN.0", "1v8     ",
   "      0v", "AIN.3   ",
-  "XE.INT26", NULL,
+  "XE.INT26", "--------",
 
    NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,
    NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,
