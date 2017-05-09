@@ -103,7 +103,7 @@ static int physToWpi [64] =
   24, 27,
   25, 28,
   -1, 29,
-  -1, -1,
+  41, -1,   // Pin 34 (XE.INT26) for ODROID-XU4
   -1, -1,
   -1, -1,
   -1, -1,
@@ -261,9 +261,10 @@ static char *physNamesOdroidXU [64] =
   "POWER ON", "GPIO. 33",
   "   AIN.0", "1v8     ",
   "      0v", "AIN.3   ",
+  "XE.INT26", NULL,
 
-   NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,
-   NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,
+   NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,
+   NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,
    NULL,NULL,NULL,
 } ;
 
